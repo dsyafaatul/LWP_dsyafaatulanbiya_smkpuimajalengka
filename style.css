@@ -1,0 +1,225 @@
+body{
+			margin: 0px;
+			padding: 0px;
+			background-color: #dddddddd;
+			font-family: arial;
+		}
+		.wrapper{
+			width: 90%;
+			margin: 0px auto;
+		}
+		.menu{
+			background-color: #ff9800;
+			position: relative;
+		}
+		.menu ul{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		.menu ul li{
+			display: inline-block;
+			border-right: 1px solid rgba(0,0,0,0.2);
+		}
+		.menu a{
+			display: inline-block;
+			padding: 10px;
+			text-decoration: none;
+			color: white;
+		}
+		.menu ul li:hover a{
+			color: orange;
+			background-color: white;
+		}
+		.menu form{
+			position: absolute;
+			right: 5px;
+			top: 5px;
+		}
+		.menu form input{
+			width: 100%;
+			border: 0px;
+			padding: 5px;
+			box-sizing: border-box;
+		}
+		.content{
+			background-color: white;
+			padding: 10px;
+		}
+		.content h2{
+			margin-left: 10px;
+			text-decoration: underline;
+		}
+		.content p{
+			text-indent: 50px;
+			text-align: justify;
+		}
+		.isi-content{
+			padding: 10px;
+			border: 1px solid orange;
+			position: relative;
+			border-radius: 5px;
+			margin-bottom: 5px;
+		}
+		.isi-content img{
+			float: left;
+			border: 1px solid gray;
+			border-radius: 5px;
+			padding: 5px;
+			margin: 5px;
+		}
+		.isi-content h1{
+			margin: 5px;
+		}
+		.isi-content a{
+			right: 10px;
+			bottom: 10px;
+			position: absolute;
+			text-decoration: none;
+			display: inline-block;
+			background-color: red;
+			padding: 5px;
+			color: white;
+			border-radius: 2px;
+		}
+		.isi-content a:hover{
+			color: red;
+			background-color: white;
+		}
+		.isi-content p{
+			text-indent: 50px;
+			text-align: justify;
+		}
+		.footer{
+			background-color: rgba(0,0,0,0.1);
+			padding: 10px;
+		}
+		.clear{
+			clear: both;
+		}
+		.form-search{
+			width: 900px;
+			margin: 0px auto;
+		}
+		.form-search form input{
+			border: none;
+			width: 100%;
+			background-color: rgba(0,0,0,0.2);
+			padding: 5px;
+			border-radius: 2px;
+		}
+		.login-panel{
+			width: 200px;
+			padding: 20px;
+			margin: 15% auto;
+			border-radius: 5px;
+			background-color: orange;
+		}
+		.login-panel form input{
+			border: none;
+			padding: 5px;
+			border-radius: 5px;
+			background-color: rgba(0,0,0,0.2);
+			width: 100%;
+			color: white;
+		}
+		.login-panel form input[type=submit]{
+			border-radius: 5px;
+			background-color: white;
+			color: black;
+		}
+		.login-panel form input[type=submit]:hover{
+			background-color: rgba(0,0,0,0.2);
+			color: white;
+			cursor: pointer;
+		}
+		.login-panel a{
+			color: white;
+			font-size: 12px;
+			text-decoration: none;
+		}
+		.btn{
+			display: inline-block;
+			padding: 10px;
+			color: white;
+			text-decoration: none;
+			margin: 10px;
+			border-radius: 2px;
+			background-color: lightseagreen;
+		}
+		.table{
+			border-collapse: collapse;
+			border-color: rgba(0,0,0,0.2);
+		}
+		.table tr:nth-child(odd){
+			background-color: rgba(0,0,0,0.2);
+		}
+		.btn-danger{
+			display: inline-block;
+			padding: 10px;
+			color: white;
+			text-decoration: none;
+			margin: 10px;
+			border-radius: 2px;
+			background-color: salmon;
+		}
+		.btn-info{
+
+			display: inline-block;
+			padding: 10px;
+			color: white;
+			text-decoration: none;
+			margin: 10px;
+			border-radius: 2px;
+			background-color: orange;
+		}
+		.content-detail img{
+			float: left;
+			margin: 5px;
+			padding: 5px;
+			border: 1px solid grey;
+		}
+		.header{
+			padding: 15px;
+			min-height: 200px;
+			background-size: cover;
+			background-image: url("header.png");
+			background-repeat: no-repeat;
+			border-radius: 5px 5px 0px 0px;
+			background-position: 0px -20px;
+			margin-top: 10px;
+			border-bottom: 1px solid rgba(255,255,255,0.2);
+		}
+		.header h1{
+			color: white;
+			margin: 0px;
+		}
+		.header a{
+			color: white;
+			text-decoration: none;
+			text-shadow: 5px 5px 1px rgba(0,0,0,0.2);
+		}
+		.form-input{
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+		@media screen and (max-width: 768px){
+			.menu ul li{
+				width: 100%;
+				display: block;
+			}
+			.menu ul a{
+				display: block;
+			}
+			.menu form{
+				position: static;
+				padding: 10px;
+			}
+			.wrapper{
+				width: 100%;
+			}
+			.header{
+				margin-top: 0px;
+				border-radius: 0px;
+			}
+		}
